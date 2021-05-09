@@ -6,15 +6,15 @@ import { round } from 'utils/format';
 import { BASE_URL } from 'utils/requests';
 
 type SeriesData = {
-    name: string,
-    data: number[]
+    name: string;
+    data: number[];
 }
 
 type ChartData = {
     labels: {
-        categories: string[]
+        categories: string[];
     },
-    series: SeriesData[]
+    series: SeriesData[];
 }
 
 const BarChart = () => {
